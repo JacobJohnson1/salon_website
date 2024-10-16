@@ -20,8 +20,18 @@ export default function Footer() {
       </section>
       <div className='leftSideFooter'>
         <section className='footerOuterContainer'>
-            <div className='footerContents'>          
-              <div md="3" lg="2" xl="2" className='usefulLinks'>
+            <div className='footerContents'>      
+            <div md="3" lg="2" xl="2" className='usefulLinks'>
+                <h6 className='text-uppercase fw-bold mb-4'>Hours</h6>
+                <p>Monday 8am - 2pm</p>
+                <p>Tuesday 8am - 2pm</p>
+                <p>Wednesday 8am - 8pm</p>
+                <p>Thursday 8am - 2pm</p>
+                <p>Friday 8am - 2pm</p>
+                <p>Saturday CLOSED</p>
+                <p>Sunday CLOSED</p>
+              </div>
+              {/* <div md="3" lg="2" xl="2" className='usefulLinks'>
                 <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
                 <p>
                   <a href='#!' className='text-reset'>
@@ -43,7 +53,7 @@ export default function Footer() {
                     Careers
                   </a>
                 </p>
-              </div>
+              </div> */}
               <div md="4" lg="3" xl="3" className='contact'>
                 <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
                 <p>1-573-447-9402</p>
