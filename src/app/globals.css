@@ -40,3 +40,51 @@ a {
     color-scheme: dark;
   }
 }
+
+.footerContents {
+  display: flex;
+  flex-direction: row;
+}
+
+.products{
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.usefulLinks{
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.socialIcons{
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialIconsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerOuterContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .mapIframe{
+  width: 15rem;
+  height: 10rem;
+} */
