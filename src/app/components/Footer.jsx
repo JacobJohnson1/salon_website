@@ -1,8 +1,9 @@
 import React from 'react';
+import Map from "./Map";
 
 export default function Footer() {
   return (
-    <div  className='text-center text-lg-start text-muted'>
+    <div  className='footer'>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
       <section >
         <div className='socialIconsContainer'>
@@ -17,61 +18,41 @@ export default function Footer() {
             </a>
         </div> 
       </section>
-      <section className='footerOuterContainer'>
-          <div className='footerContents'>
-            <div md="2" lg="2" xl="2" className='products'>
-              <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Angular
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  React
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Vue
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Laravel
-                </a>
-              </p>
+      <div className='leftSideFooter'>
+        <section className='footerOuterContainer'>
+            <div className='footerContents'>          
+              <div md="3" lg="2" xl="2" className='usefulLinks'>
+                <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+                <p>
+                  <a href='#!' className='text-reset'>
+                    Facebook
+                  </a>
+                </p>
+                <p>
+                  <a href='#!' className='text-reset'>
+                    Booking
+                  </a>
+                </p>
+                <p>
+                  <a href='#!' className='text-reset'>
+                    Orders
+                  </a>
+                </p>
+                <p>
+                  <a href='#!' className='text-reset'>
+                    Careers
+                  </a>
+                </p>
+              </div>
+              <div md="4" lg="3" xl="3" className='contact'>
+                <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+                <p>573-356-6306</p>
+                <p>tribesalon@gmail.com</p>
+              </div>
             </div>
-            <div md="3" lg="2" xl="2" className='usefulLinks'>
-              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Facebook
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Booking
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Orders
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Help
-                </a>
-              </p>
-            </div>
-            <div md="4" lg="3" xl="3" className='contact'>
-              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
-              <p>573-356-6306</p>
-              <p>tribesalon@gmail.com</p>
-            </div>
-          </div>
-      </section>
+        </section>
+        <Map className='footerMap'/>
+      </div>
     </div>
   );
 }
