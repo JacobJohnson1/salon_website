@@ -24,7 +24,7 @@ function OffcanvasExample() {
             </button>
             <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
               <div className="offcanvas-header">
-                <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                {/* <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> */}
                 <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
               <div className="offcanvas-body">
@@ -33,7 +33,7 @@ function OffcanvasExample() {
                     <a className="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Link</a>
+                    <a className="nav-link" href="https://staceylang.glossgenius.com/services" target='blank'>Book Now</a>
                   </li>
                   <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
