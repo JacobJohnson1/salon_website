@@ -46,8 +46,8 @@ export default function Footer() {
               </div>
               <div md="4" lg="3" xl="3" className='contact'>
                 <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
-                <p>573-356-6306</p>
-                <p>tribesalon@gmail.com</p>
+                <p>1-573-447-9402</p>
+                <a href="mailto: stacey.tribesalon@gmail.com">stacey.tribesalon@gmail.com</a>
               </div>
             </div>
         </section>
